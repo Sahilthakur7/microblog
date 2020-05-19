@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const { randomBytes } = require("crypto");
 
 const app = express();
-app.use(bodyParse.json());
+app.use(bodyParser.json());
 
 const commentsByPostId = {};
 
