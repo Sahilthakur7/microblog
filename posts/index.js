@@ -35,5 +35,6 @@ app.post("/events", (req, res) => {
 });
 
 app.listen(4000, () => {
+  console.log("Change to latest");
   console.log("Listening to posts on 4000");
 });
