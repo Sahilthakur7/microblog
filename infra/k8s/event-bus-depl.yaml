@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: event-bus
-          image: sahilthakur/event-bus
+          image: sahilthakur7/event-bus
 
 ---
 apiVersion: v1
