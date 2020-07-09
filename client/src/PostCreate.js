@@ -9,8 +9,7 @@ export default () => {
       e.preventDefault();
     }
 
-    const post = await axios.post("http://localhost:4000/posts", { title });
-    console.log("post ======", post);
+    const post = await axios.post("http://posts.com/posts/create", { title });
 
     setTitle("");
   };
